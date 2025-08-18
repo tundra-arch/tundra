@@ -49,19 +49,20 @@ int?:
   .keyboard? = 0x10
 
 char?:
-  .lf? = 0x0a           ; IN/OUT
   .bs? = 0x08           ; IN/OUT
   .up? = 0xe9           ; IN/OUT
   .down? = 0xeb         ; IN/OUT
   .left? = 0xea         ; IN/OUT
   .right? = 0xec        ; IN/OUT
 
+  .enter? = 0x0d        ; IN
   .tab? = 0x09          ; IN
   .insert? = 0xee       ; IN
   .delete? = 0xf8       ; IN
   .home? = 0xe8         ; IN
   .end? = 0xe5          ; IN
 
+  .lf? = 0x0a           ; OUT
   .cr? = 0x0d           ; OUT
   .clear_right? = 0xd2  ; OUT
   .clear_down? = 0xc2   ; OUT

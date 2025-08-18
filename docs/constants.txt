@@ -100,8 +100,6 @@ Interrupt Kinds
 
 Terminal Input/Output Values
 ----------------------------
-  CHAR.CR = 0x0D
-
   CHAR.BS = 0x08
 
   CHAR.UP = 0xE9
@@ -114,6 +112,8 @@ Terminal Input/Output Values
 
 Terminal Input Values
 ---------------------
+  CHAR.ENTER = 0x0D
+
   CHAR.TAB = 0x09
 
   CHAR.INSERT = 0xEE
@@ -126,6 +126,8 @@ Terminal Input Values
 
 Terminal Output Values
 ----------------------
+  CHAR.CR = 0x0D
+
   CHAR.LF = 0x0A
 
   CHAR.CLEAR_RIGHT = 0xD2
